@@ -1,13 +1,9 @@
-weather1 = 'sunny'
-weather2 = 'rainy'
-weather3 = 'cold'
-
 weather = input ("What's the weather like today? (sunny/rainy/cold): ")
-if weather == weather1:
+if weather == "sunny":
     print ("Wear a t-shirt and glasses.")
-elif weather == weather2:
+elif weather == "rainy":
     print ("Don't forget your umbrella and raincoat.")
-elif weather == weather3:
+elif weather == "cold":
     print ("Make sure to wear a warm coat and a scarf.")
 
 else:
